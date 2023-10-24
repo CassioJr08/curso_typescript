@@ -1,20 +1,20 @@
 // 1- arrays
 
-let number: number[] = [1,2,3,4,5]
-number.push(10)
+let number1: number[] = [1,2,3,4,5]
+number1.push(10)
 
-console.log(number[5])
+console.log(number1[5])
 
-const nomes: string[] = ['Cassio', 'Junior']
+const objeto: object[] = [{name: 'cassio'}]
 
-nomes.push('silva')
-console.log(nomes)
+objeto.push({idade: 18})
+console.log(objeto)
 
 
 // 2 - outra sintaxe array
-const nums: Array<number> = [100, 200]
+const nums1: Array<number> = [100, 200]
 
-nums.push(300)
-console.log(nums[2]);
+nums1.push(300)
+console.log(nums1[2]);
 
 let boll: boolean[] = [true, false]
