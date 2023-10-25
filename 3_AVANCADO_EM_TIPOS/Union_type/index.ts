@@ -1,4 +1,4 @@
-// union tupe detemina mais tipos para um dado
+// union type detemina mais tipos para um dado
 
 // somente utilizar o operador OR
 
