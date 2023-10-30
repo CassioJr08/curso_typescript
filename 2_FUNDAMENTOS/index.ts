@@ -51,3 +51,21 @@ let numero: number = 10
 let texto = numero.toString()
 
 console.log(`O número em uma string é ${texto}`)
+
+
+const obj: {nome: string, idade: number} = {
+    nome: 'cassio',
+    idade: 32
+}
+
+console.log(`Meu nome é ${obj.nome} e tenho ${obj.idade} anos`)
+
+const {nome, idade} = obj
+console.log(`Meu nome é ${nome} e tenho ${idade} anos`)
+
+function tt({nome, idade}: {nome:string, idade: number}): void{
+    console.log(`Meu nome é ${nome} e tenho ${idade} anos`)
+    
+}
+
+tt(obj)
