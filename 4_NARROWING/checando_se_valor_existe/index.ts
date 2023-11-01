@@ -5,7 +5,7 @@ function operation(arr: number[], operation?: string | undefined){
             const sum = arr.reduce((acc, elemento) => acc + elemento)
             console.log(sum)
         }else if(operation === 'multiply'){
-            const multiply = arr.reduce((acc, elemento) => acc + elemento)
+            const multiply = arr.reduce((acc, elemento) => acc * elemento)
             console.log(multiply)
         }
     } else {

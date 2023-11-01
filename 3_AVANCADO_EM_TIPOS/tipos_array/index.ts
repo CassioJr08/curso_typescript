@@ -7,6 +7,7 @@ console.log(number1[5])
 
 const objeto: object[] = [{name: 'cassio'}]
 
+objeto[0] = {...objeto[0],idade: 18}
 objeto.push({idade: 18})
 console.log(objeto)
 

@@ -12,7 +12,7 @@ showBalance(400)
 
 const idade: Array <string | number | boolean> = [1, '2', true]
 
-// Avançando em unio types
+// Avançando em union types
 
 function shoqUserRole(role: boolean | string){
     if(typeof role === 'boolean'){
